@@ -1,6 +1,6 @@
 pkg_name=bison
 pkg_origin=core
-pkg_version=3.4.2
+pkg_version=3.7.1
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="\
 Bison is a general-purpose parser generator that converts an annotated \
@@ -10,7 +10,7 @@ employing LALR(1) parser tables.\
 pkg_upstream_url="https://www.gnu.org/software/bison/"
 pkg_license=('GPL-3.0')
 pkg_source="http://ftp.gnu.org/gnu/$pkg_name/${pkg_name}-${pkg_version}.tar.xz"
-pkg_shasum="27d05534699735dc69e86add5b808d6cb35900ad3fd63fa82e3eb644336abfa0"
+pkg_shasum="55c215521a13982a9bee68cd42eed51a65713f96c530a739a57de4438ac1bb69"
 pkg_deps=(
   core/glibc
   core/m4
